@@ -19,7 +19,7 @@ limit2:
 	la a0, limit1
 	li a7, 4
 	ecall
-	bge x0,x0, limit
+	beq x0,x0, limit
 start:
 	addi t1, x0, 20
 	addi t2, x0, 10
