@@ -1,7 +1,7 @@
 # 1071710_proj_1
 ## 此次project包含內容如下
 - [x] 程式碼 - 1071710_proj_1.asm
-- [ ] 輸入輸出範例數組
+- [x] 輸入輸出範例數組 - 1071710_proj_1輸入輸出範例.docx
 - [x] 說明文件 - README.md
 ### 其餘內容
 * Test_C++_Program放置的是C++的測試程式，用於參考答案是否正確。將0 - 100的答案全數印出來
@@ -17,7 +17,8 @@
  * t4 則是固定放input之x number
 ### 基本的防呆範圍限制
 首先，由於作業說明有要求基本的Input number x 有個限制範圍，為 x<=99 
-因此只要輸入範圍大於99，則顯示**The input  number is greater than 99, please try again.**，要求使用者重新輸入。
+因此只要輸入範圍大於99，則顯示**The input  number is greater than 99, please try again.**，要求使用者重新輸入。如下圖所示，此時直接輸入number就好，若條件符合就會開始計算！
+- ![again](https://github.com/Ryan0911/1071710_proj_1/blob/main/image/again.png)
 ### 各個Basic Block之說明：
  * main ： 顯示 Input a number:
  * limit ： 讀取一個整數，初始化之後會放入解答的t0與放入input number的t4，將**t1設置為100以用於判斷使用者是否輸入超過99**，若使用者超出99，則進入limit2的區塊，反之則input number為合法，進入start區塊。
